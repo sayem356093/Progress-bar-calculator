@@ -1,0 +1,279 @@
+body {
+    background: #e1e1e1;
+    min-height: 100%;
+}
+*{
+    margin:  0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+
+.cost-slider {
+    width: 70%;
+    display: inline-block;
+}
+.violet{
+    color: violet;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: Open Sans;
+}
+
+h1 {
+    border-bottom: .05em solid #4D90FE;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: .8em;
+}
+
+.ui-slider {
+    height: .7em;
+    background: #4D90FE;
+    border: none;
+}
+
+.ui-slider .ui-slider-handle {
+    border-radius: 50%;
+    position: absolute;
+    background: #e1e1e1;
+    margin-left: -.6em;
+}
+.slider-1.cost-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+    background: #A789F2;
+    margin-top: 30px;
+}
+.ui-slider .ui-slider-handle:focus {
+    outline: none;
+}
+
+/*input {
+    line-height: 1.6em;
+    padding: .5em;
+    margin-right: 0.5em;
+    display: block;
+    margin-left: auto;
+}*/
+
+.value-input-box {
+    display: inline-block;
+}
+
+.dollar-percent-spacer {
+    display: inline-block;
+    width: 1em;
+    text-align: right;
+}
+.results {
+    text-align: center;
+    padding: .5em 1em 2em 1em;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.results input {
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+    background: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.results{
+}
+.results h2{
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.results p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 28px;
+}
+.results a{
+    display: inline-block;
+    padding: 20px 30px;
+    background: linear-gradient(243deg, rgba(140,46,255,1) 10%, rgba(71,191,255,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 40px;
+    border-radius: 15px;
+    text-decoration: none;
+     font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 32px;
+    transition: 0.5s;
+}
+.results a:hover{
+    transform: scale(1.2);
+}
+
+}
+< !-- Tooltip -->.content {}
+
+.content {
+    padding: 5px 0 0 0;
+    text-align: right;
+}
+
+button {
+    width: 25px;
+    height: auto;
+    text-align: center;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 2.5em;
+    right: 30%;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: .1em solid #e1e1e1;
+    text-align: center;
+    font-size: 13px;
+    padding: 0;
+    box-shadow: .15em .2em rgba(0, 0, 0, 0.1);
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+
+
+
+.slider-input-container{
+    text-align: right;
+}
+.value-input-box {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*adil's code start from here */
+
+
+
+.payment-section{
+    background: #fff;
+    padding:  70px 0;
+    width: 100% !important;
+    clear: both;
+}
+
+.container-sec{
+    width:  60%;
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-right{
+    background: linear-gradient(243deg, rgba(71,191,255,1) 28%, rgba(140,46,255,1) 100%);
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  20px;
+    border-radius: 10px;
+}
+.main-content{
+}
+
+
+
+
+
+.content-left{
+    width: 70%;
+    padding:  20px 30px 20px 70px;
+    text-align: right;
+}
+.content-left h1{
+    line-height: 45px;
+    color: #7B66DC;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 45px;
+}
+.content-left h4 {
+    line-height: 19px;
+    color: #7B66DC;
+    margin-bottom: 43px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+}
+.content-left h3 {
+    color: grey;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.content-left p {
+    color: grey;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.content-left input {
+    line-height: 1.6em;
+    /*margin-right: 0.5em;*/
+    display: block;
+    margin: auto;
+    border: none;
+    color: #5B38C9;
+    font-size:  28px;
+    font-weight: bold;
+    text-align: right;
+    padding:  none;
+    width: 100%;
+
+}
+input:focus{
+    border:  none;
+    outline: none
+}
+
